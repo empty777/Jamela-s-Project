@@ -52,7 +52,7 @@ body {
 }
 ul#menuList li {
   display: inline;
-  padding: 5%;
+  padding: 2%;
   text-decoration: underline;
   font-size: 200%;
   background-color: grey;
