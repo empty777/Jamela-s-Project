@@ -45,6 +45,9 @@ body {
 #headerColumn2 {
   float: left; margin:0; width: 80%;
 }
+#menu {
+  width: 90%;
+}
 #menuList {
   list-style: none;
   text-align: center;
