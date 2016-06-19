@@ -1,5 +1,5 @@
 html {
-    background-color: #FFF;
+    background-color: #7ECD26;
     color: black;
     font-weight: lighter;
 }
@@ -22,10 +22,7 @@ a:active {
 */
 
 body {
-    padding-top: 20px;
-    padding-right: 3%;
-    padding-bottom: 20px;
-    padding-left: 3%;
+    background-color: #7ECD26;
 }
 .underlined {
   text-decoration: underline;
@@ -33,17 +30,18 @@ body {
 
 /* logo stuff */
 #headerColumn1 {
-  float: left; margin:0; width: 20%;
+  float: left; margin:0; width: 33%;
 }
 
 #logoImage {
   width: 100%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 /* menu stuff */
 
 #headerColumn2 {
-  float: left; margin:0; width: 80%;
+  float: left; margin:0; width: 67%;
 }
 #menu {
   width: 90%;
@@ -52,27 +50,33 @@ body {
   list-style: none;
   text-align: center;
   padding-top: 5%;
+  white-space: nowrap;
 }
 ul#menuList li {
   display: inline;
   padding: 2%;
   text-decoration: underline;
   font-size: 200%;
-  background-color: grey;
+  background-color: #36AB9D;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .menuLink {
-  background-color: lightgrey;
+
 }
 
 /* launching soon */
 
 #launchingSoon {
   text-align: center;
+  width: 100%;
+  padding-top: 14%;
 }
 
 #importantInformation {
-  background-color: grey;
+  padding: 0.5%;
+  background-color: #36AB9D;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 /* gallary preview stuff */
@@ -96,6 +100,7 @@ ul#menuList li {
     display: block;
     margin: 0 auto;
     position: relative;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .slides * {
