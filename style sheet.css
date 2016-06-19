@@ -4,8 +4,6 @@ html {
     font-weight: lighter;
 }
 
-/*
-
 a:link {
   color:black; background-color:transparent; text-decoration:none;
 }
@@ -13,16 +11,17 @@ a:visited {
   color:black; background-color:transparent; text-decoration:none;
 }
 a:hover {
-  color:black; background-color:transparent; text-decoration:none;
+  color:black; background-color:transparent; text-decoration:underline;
 }
 a:active {
   color:black; background-color:transparent; text-decoration:none;
 }
 
-*/
-
 body {
     background-color: #7ECD26;
+    padding-top: 0.75%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 .underlined {
   text-decoration: underline;
@@ -55,7 +54,6 @@ body {
 ul#menuList li {
   display: inline;
   padding: 2%;
-  text-decoration: underline;
   font-size: 200%;
   background-color: #36AB9D;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -199,12 +197,50 @@ input:checked + .slide-container .nav label { display: block; }
 input#img-1:checked ~ .nav-dots label#img-dot-1,
 input#img-2:checked ~ .nav-dots label#img-dot-2,
 input#img-3:checked ~ .nav-dots label#img-dot-3,
-input#img-4:checked ~ .nav-dots label#img-dot-4,
-input#img-5:checked ~ .nav-dots label#img-dot-5,
-input#img-6:checked ~ .nav-dots label#img-dot-6 {
+input#img-4:checked ~ .nav-dots label#img-dot-4 {
 	background: rgba(0, 0, 0, 0.8);
 }
 
+#socialMediaLinks {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.socialMediaIcons {
+  padding: 0.3%;
+  width: 20%;
+}
+
+#aboutJamelaColumn1 {
+  float: left; margin:0; width: 30%;
+}
+
+#jamelaPic {
+  width: 70%;
+  margin-left: 50%;
+  transform:
+    translateX(-50%);
+  text-align: center;
+}
+
+#aboutJamelaColumn2 {
+  float: left; margin:0; width: 70%;
+}
+
+.gallary-newsImages {
+  margin-left: 50%;
+  transform:
+    translateX(-50%);
+  text-align: center;
+  width: 50%;
+  padding: 2.5%;
+}
+
+#contactInfo {
+  text-align: center;
+  padding-top: 2%;
+}
 
 /*
 
