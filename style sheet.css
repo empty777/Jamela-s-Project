@@ -226,6 +226,7 @@ input#img-4:checked ~ .nav-dots label#img-dot-4 {
 
 #aboutJamelaColumn2 {
   float: left; margin:0; width: 70%;
+  padding-bottom: 5%;
 }
 
 .gallary-newsImages {
